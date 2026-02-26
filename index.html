@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books | Shop</title>
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="p-2 text-bg-" id="head">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <img src="./logo 2.png" alt="" height="100px" class="image-fluid" />
+          </a>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-1 py-2 fw-bolder fs-6 justify-content-center mb-md-0">
+            <li>
+              <a href="#hero" class="nav-link px-3 text-white">Home</a>
+            </li>
+            <li>
+              <a href="#book" class="nav-link px-3 text-white">Categories</a>
+            </li>
+            <li>
+              <a href="#collection" class="nav-link px-3 text-white">Books</a>
+            </li>
+            <li>
+              <a href="#review" class="nav-link px-3 text-white">Reviews</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link px-3 text-white">Contact</a>
+            </li>
+          </ul>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-dark me-2">Login</button>
+            <button type="button" class="btn btn-info">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--hero-->
+
+    <section id="hero">
+      <div class="container col-xxl-8 g-5 pt-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./book.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="900" height="900" loading="lazy" />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              Huge Collection Of <span style="text-shadow: 2px 2px 5px black" class="text-info">Best Books</span>
+            </h1>
+            <p class="lead fs-4 fw-normal">
+             An online book is a resource in book-like form that is only availabe to read on the Internet. It differs from the common idea of e-book.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-9" role="search">
+                <input type="search" class="form-control form-control-dark text-bg-light" placeholder="Search..." aria-label="Search" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--book-->
+
+    <section id="book">
+      <div id="custom-cards" class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom display-5 fw-bold text-center">CATEGORIES</h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div id="card" class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-info rounded-4 shadow-lg image-fluid">
+              <img src="./images-removebg-preview-artguru.png" alt="" />
+              <div class="d-flex flex-column h-100 text-white text-shadow-1" style="position: relative; bottom: 50px">
+                <h3 style="margin: 10px" class="text-center pt-4 mt-3 mb-4 display-7 lh-1 fw-bold">Action and Adventure</h3>
+              </div>
+            </div>
+          </div>
+          <div id="card" class="col">
+            <div id="imgs" class="card card-cover h-100 overflow-hidden text-bg-warning rounded-4 shadow-lg">
+              <img style="position: relative; top: 100px" src="./classic.png" alt="" />
+              <div class="d-flex flex-column h-100 p-1 pb-3 text-white text-shadow-1">
+                <h3 style="margin: 10px; position: relative; top: 130px" class="text-center pt-2 mt-5 mb-8 display-7 lh-1 fw-bold">Classic</h3>
+              </div>
+            </div>
+          </div>
+          <div id="card" class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-danger rounded-4 shadow-lg">
+              <img src="./mystry.png" alt="" />
+              <div class="d-flex flex-column h-100 pb-3 text-shadow-1">
+                <h3 style="margin: 10px; position: relative; top: 60px" class="text-center display-7 lh-1 fw-bold">Detective and Mystery</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container px-4 py-5" id="custom-cards-top">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div id="card" class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-secondary rounded-4 shadow-lg">
+              <img src="./bio.png" alt="" />
+              <div class="d-flex flex-column h-100 p-1 pb-3 text-white text-shadow-1">
+                <h3 style="margin: 10px; position: relative; top: 30px" class="text-center display-7 lh-1 fw-bold">Biographies</h3>
+              </div>
+            </div>
+          </div>
+          <div id="card" class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-primary rounded-4 shadow-lg">
+              <img src="./new york.png" alt="" />
+              <div class="d-flex flex-column h-100 p-1 pb-3 text-white text-shadow-1">
+                <h3 style="margin: 10px; position: relative; top: 30px" class="text-center display-7 lh-1 fw-bold">New york Best Sellers</h3>
+              </div>
+            </div>
+          </div>
+          <div id="card" class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-success rounded-4 shadow-lg">
+              <img src="./child.png" alt="" />
+              <div class="d-flex flex-column h-100 p-1 pb-3 text-shadow-1">
+                <h3 style="margin: 10px; position: relative; top: 30px" class="text-center display-7 lh-1 fw-bold">Children Novel</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--best-->
+
+    <section id="collection">
+      <div id="product">
+        <div class="container m-5">
+          <h1 class="text-center my-5">COLLECTION</h1>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box1">
+                <img src="./assets/10001.jpg" class="card-img-top" />
+                <div class="card-body text-center">
+                  <h5 class="px-2 card-title">Viper in Window  <span class="px-2 fw-bold">$35</span> </h5>
+                  <a href="#" class="btn btn-info my-2">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box1">
+                <img src="./assets/10002.jpg" class="card-img-top" />
+                <div class="card-body text-center">
+                  <h5 class="px-2 card-title">Autobiography <span class="px-4 fw-bold">$20</span></h5>
+                  <a href="#" class="btn btn-info my-2">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box1">
+                <img src="./assets/10003.jpg" class="card-img-top" />
+                <div class="card-body text-center">
+                  <h5 class="px-2 card-title">Natural Cosmatic <span class="px-3 fw-bold">$25</span></h5>
+                  <a href="#" class="btn btn-info my-2">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box1">
+                <img src="./assets/10004.jpg" class="card-img-top" />
+                <div class="card-body text-center">
+                  <h5 class="px-3 card-title">5 Years<span class="px-5 fw-bold">$30</h5>
+                  <a href="#" class="btn btn-info my-2">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box1">
+                <img src="./assets/10005.jpg" class="card-img-top" />
+                <div class="card-body text-center">
+                  <h5 class="px-2 card-title">Lady's Cross <span class="px-4 fw-bold">$10</h5>
+                  <a href="#" class="btn btn-info my-2">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box1">
+                <img src="./assets/10006.jpg" class="card-img-top" />
+                <div class="card-body text-center">
+                  <h5 class="px-2 card-title">Never Stop <span class="px-4 fw-bold">$40</h5>
+                  <a href="#" class="btn btn-info my-2">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box1">
+                <img src="./assets/10007.jpg" class="card-img-top" />
+                <div class="card-body text-center">
+                  <h5 class="px-2 card-title">The Planets <span class="px-4 fw-bold">$30</h5>
+                  <a href="#" class="btn btn-info my-2">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box1">
+                <img src="./assets/10008.jpg" class="card-img-top" />
+                <div class="card-body text-center">
+                  <h5 class="px-2 card-title">The Sequence <span class="px-3 4w-bold">$15</h5>
+                  <a href="#" class="btn btn-info my-2">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box1">
+                <img src="./assets/10009.jpg" class="card-img-top" />
+                <div class="card-body text-center">
+                  <h5 class="px-2 card-title">The Cave <span class="px-4 fw-bold">$40</h5>
+                  <a href="#" class="btn btn-info my-2">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+       <!--offer-->
+
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-5f9d1c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5f9d1c6" data-element_type="section" data-e-type="section">
+      <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f31726e" data-id="f31726e" data-element_type="column" data-e-type="column">
+          <div class="elementor-widget-wrap elementor-element-populated"><div class="elementor-element elementor-element-20f9698 elementor-widget elementor-widget-cz_title" data-id="20f9698" data-element_type="widget" data-e-type="widget" data-widget_type="cz_title.default">
+            <div class="elementor-widget-container"><div><div class="cz_title clr cz_title_pos_inline tac">
+              <div class="cz_title_content"><div class="cz_wpe_content"><h5 style="text-align: center; font-size: 2em sans-serif;">Special Offers</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="elementor-element elementor-element-6abec9d elementor-widget elementor-widget-cz_title" data-id="6abec9d" data-element_type="widget" data-e-type="widget" data-widget_type="cz_title.default">
+      <div class="elementor-widget-container">
+        <div>
+          <div class="cz_title clr cz_title_pos_inline tac">
+            <div class="cz_title_content">
+              <div class="cz_wpe_content">
+                <h3 style="text-align: center; font:4em sans-serif;">Get %20 off for your first order!</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="elementor-element elementor-element-5cb6c82 elementor-widget elementor-widget-cz_title" data-id="5cb6c82" data-element_type="widget" data-e-type="widget" data-widget_type="cz_title.default">
+      <div class="elementor-widget-container">
+        <div>
+          <div class="cz_title clr cz_title_pos_inline tac">
+            <div class="cz_title_content">
+              <div class="cz_wpe_content">
+                <p style="text-align: center;">An online book is a resource in book-like form that is only available to read on the Internet.</p>
+                <p style="text-align: center;">It differs from the common idea of an e-book.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+     </div>
+    </div>
+    </div>
+   </div>
+   </div>
+ </section>
+
+    <!--review-->
+
+    <section id="review" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5 fw-bold">What Our Customers Say</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card review-card border-0 shadow-sm h-100">
+              <div class="card-body text-center p-4">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-3" width="80" height="80" alt="Customer">
+                <h5 class="fw-bold mb-1">Sarah Johnson</h5>
+                <div class="rating mb-2">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="text-muted">
+                 "The very best. Really good. I wish I would have thought of it first. I couldn't have asked for more than this."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card review-card border-0 shadow-sm h-100">
+              <div class="card-body text-center p-4">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-3" width="80" height="80" alt="Customer">
+                <h5 class="fw-bold mb-1">Mike Chen</h5>
+                <div class="rating mb-2">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+                <p class="text-muted">
+                  "The very best. Really good. I wish I would have thought of it first. I couldn't have asked for more than this."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card review-card border-0 shadow-sm h-100">
+              <div class="card-body text-center p-4">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" class="rounded-circle mb-3" width="80" height="80" alt="Customer">
+                <h5 class="fw-bold mb-1">Emily Rodriguez</h5>
+                <div class="rating mb-2">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="text-muted">
+                  "The very best. Really good. I wish I would have thought of it first. I couldn't have asked for more than this."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ 
+
+ <!--footer-->
+
+<footer id="contact" class="footer py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <h5 class="text-white mb-3">
+              <i class="bi bi-bag-fill me-2 text-primary"><img src="./logo_books-removebg-preview.png"  height="100px" alt=""></i>Libra Book
+            </h5>
+            <p class="small">
+              “Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”
+            </p>
+            <div class="social-icons">
+              <a href="#" class="me-2"><i class="bi bi-facebook fs-5"></i></a>
+              <a href="#" class="me-2"><i class="bi bi-twitter-x fs-5"></i></a>
+              <a href="#" class="me-2"><i class="bi bi-instagram fs-5"></i></a>
+              <a href="#"><i class="bi bi-linkedin fs-5"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h5 class="text-white mb-3">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#">Home</a></li>
+               <li class="mb-2"><a href="#">Book</a></li>
+              <li class="mb-2"><a href="#">Collection</a></li>
+              <li class="mb-2"><a href="#">Blog</a></li>
+              <li class="mb-2"><a href="#">Terms &amp; Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-3">Contact Info</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="bi bi-geo-alt me-2"></i>Trincomalee Main Street, NY
+                10002
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-telephone me-2"></i>+94 758956053
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-envelope me-2"></i>book@Librabooks.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h5 class="text-white mb-3">Newsletter</h5>
+            <p class="small">Subscribe for exclusive offers</p>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Your email">
+              <button class="btn btn-info" type="button">
+                <i class="bi bi-send">Send</i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-4 border-secondary">
+        <p class="text-center small mb-0">
+          © 2026 Librabook. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
